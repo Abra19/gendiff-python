@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
+from gendiff.utils.argparser import parse_args
+
 
 def main():
-    print('test on')
-
+    parse_args()
 
 if __name__ == '__main__':
     main()
