@@ -1,2 +1,2 @@
-### Hexlet tests and linter status:
+### Hexlet tests, Developer tests, Linter status, Maintainability, Test Coverage:
 [![Actions Status](https://github.com/Abra19/python-project-50/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Abra19/python-project-50/actions)
