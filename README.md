@@ -7,7 +7,7 @@
 ### Descriptions
 This project implements a function gendiff that compare two configuration files and show a difference.
 
-To compare files, you need to pass to the function gendff two args: ../pathToFile1, ../pathToFile2.
+To compare files, you need to pass to the function gendff two args: ../path/to/file1, ../path/to/file2.
 
 The path to the file can be either relative: ../somefile or absolute /somedir/somefile.
 
