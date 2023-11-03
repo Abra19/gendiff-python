@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 def main():
-    print('test')
+    print('test on')
 
 
 if __name__ == '__main__':
