@@ -15,12 +15,13 @@ classifiers = [
 repository = "https://github.com/Abra19/python-project-50"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.11"
 
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^6.1.0"
 pytest = "^7.4.3"
+pytest-cov = "^4.1.0"
 
 [tool.poetry.scripts]
 gendiff = "gendiff.scripts.gendiff:main"
