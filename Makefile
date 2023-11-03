@@ -24,4 +24,6 @@ publish:
 package-install:
 	python3 -m pip install --user dist/*.whl --force-reinstall
 
-.PHONY: install test lint check gendiff build publish
+start:	build package-install
+
+.PHONY: install test lint check gendiff build publish start

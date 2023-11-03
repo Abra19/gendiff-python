@@ -14,7 +14,7 @@ The path to the file can be either relative: ../somefile or absolute /somedir/so
 The function can be used as a library or as a console utility
   
 ### Requirements
-1. Python >=3.10
+1. Python >=3.9
 2. pip >= 19
 3. poetry >= 1.2.0
 

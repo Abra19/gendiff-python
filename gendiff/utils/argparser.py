@@ -14,4 +14,4 @@ def parse_args():
         default='json'
     )
     args = parser.parse_args()
-    print(args.accumulate(args.integers))
+    return [args.first_file, args.second_file, args.format]
