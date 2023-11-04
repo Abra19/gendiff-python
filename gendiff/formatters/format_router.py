@@ -17,7 +17,5 @@ def formatter(diffs, format):
             case 'changed':
                 result.append(removed)
                 result.append(changed)
-            case _:
-                raise NameError(f"action's type {action_type} not supported")
     result.append('}')
     return '\n'.join(result)
