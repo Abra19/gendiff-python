@@ -4,17 +4,23 @@ def make_diff(data1, data2):
     for key in keys:
         value1 = data1.get(key)
         value2 = data2.get(key)
-        if value1 is None:
+        if key not in data1.keys():
             diffs.append({
                 'key': key,
                 'action_type': 'added',
                 'value': value2
             })
-        elif value2 is None:
+        elif key not in data2.keys():
             diffs.append({
                 'key': key,
                 'action_type': 'removed',
                 'value': value1
+            })
+        elif isinstance(value1, dict) and isinstance(value2, dict):
+            diffs.append({
+                'key': key,
+                'action_type': 'children',
+                'value': make_diff(value1, value2)
             })
         elif value1 == value2:
             diffs.append({
