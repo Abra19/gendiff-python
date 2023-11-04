@@ -3,12 +3,17 @@ from gendiff.generate_diff import generate_diff
 
 file1_json = 'tests/fixtures/file1.json'
 file2_json = 'tests/fixtures/file2.json'
-expected_json = 'tests/fixtures/expected1.txt'
+file1_yaml = 'tests/fixtures/file1.yaml'
+file2_yaml = 'tests/fixtures/file2.yml'
+expected = 'tests/fixtures/expected1.txt'
 
 
 @pytest.mark.parametrize(
     'path1, path2, expected',
-    [(file1_json, file2_json, expected_json)]     
+    [
+        (file1_json, file2_json, expected),
+        (file1_yaml, file2_yaml, expected),
+     ]     
 )
 
 

@@ -16,6 +16,7 @@ repository = "https://github.com/Abra19/python-project-50"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+pyyaml = "^6.0.1"
 
 
 [tool.poetry.group.dev.dependencies]
