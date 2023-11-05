@@ -50,3 +50,7 @@ Stylish formatter(default) for nested trees:
 Plain formatter for nested trees:
 
 [![asciicast](https://asciinema.org/a/arW8NSJ7hxdGmGfcHdqk1ggK9.svg)](https://asciinema.org/a/arW8NSJ7hxdGmGfcHdqk1ggK9)
+
+Json formatter for nested trees:
+
+[![asciicast](https://asciinema.org/a/kJdxJMREqoLFk7rCNIbkpkmOV.svg)](https://asciinema.org/a/kJdxJMREqoLFk7rCNIbkpkmOV)

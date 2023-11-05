@@ -1,12 +1,14 @@
-from gendiff.formatters.stylish import format_stylish
-from gendiff.formatters.plain import format_plain
+from gendiff.formatters import stylish, plain, to_json
 
 
 def formatter(diffs, format):
+    print(diffs)
     match format:
         case 'stylish':
-            return format_stylish(diffs)
+            return stylish.format_stylish(diffs)
         case 'plain':
-            return format_plain(diffs)
+            return plain.format_plain(diffs)
+        case 'json':
+            return to_json.format_json(diffs)
         case _:
             raise NameError(f'format {format} not supported')

@@ -12,6 +12,7 @@ file1_nested_yaml = 'tests/fixtures/file_nested1.yaml'
 file2_nested_yaml = 'tests/fixtures/file_nested2.yml'
 expected_stylish = 'tests/fixtures/expected_stylish.txt'
 expected_plain = 'tests/fixtures/expected_plain.txt'
+expected_json = 'tests/fixtures/expected.json'
 
 @pytest.mark.parametrize(
     'path1, path2, format, expected',
@@ -21,7 +22,9 @@ expected_plain = 'tests/fixtures/expected_plain.txt'
         (file1_nested_json, file2_nested_json, 'stylish', expected_stylish),
         (file1_nested_yaml, file2_nested_yaml, 'stylish', expected_stylish),
         (file1_nested_json, file2_nested_json, 'plain', expected_plain),
-        (file1_nested_yaml, file2_nested_yaml, 'plain', expected_plain)
+        (file1_nested_yaml, file2_nested_yaml, 'plain', expected_plain),
+        (file1_nested_json, file2_nested_json, 'json', expected_json),
+        (file1_nested_yaml, file2_nested_yaml, 'json', expected_json)
      ]     
 )
 
