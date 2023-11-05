@@ -2,7 +2,6 @@ from gendiff.formatters import stylish, plain, to_json
 
 
 def formatter(diffs, format):
-    print(diffs)
     match format:
         case 'stylish':
             return stylish.format_stylish(diffs)
