@@ -4,8 +4,7 @@ from gendiff.utils.make_str import make_str
 def stringify(value):
     if isinstance(value, dict):
         return '[complex value]'
-    new_value = value if isinstance(value, bool) or value is None \
-        else f"'{value}'"
+    new_value = f"'{value}'" if isinstance(value, str) else value
     return make_str(new_value)
 
 
