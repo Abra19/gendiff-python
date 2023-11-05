@@ -39,7 +39,7 @@ The function can be used as a library or as a console utility
   `export PATH=$PATH:'path/to/your/executable'`
 
 ### To Run
-Simple not-nested trees:
+Stylish formatter(default) for plain trees:
 
 [![asciicast](https://asciinema.org/a/QNWeY8JDMg4A7dInevCVWVNmp.svg)](https://asciinema.org/a/QNWeY8JDMg4A7dInevCVWVNmp)
 
