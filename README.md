@@ -46,3 +46,7 @@ Simple not-nested trees:
 Stylish formatter(default) for nested trees:
 
 [![asciicast](https://asciinema.org/a/OGoq9EpzV2QfgWEw2AkK0sXsY.svg)](https://asciinema.org/a/OGoq9EpzV2QfgWEw2AkK0sXsY)
+
+Plain formatter for nested trees:
+
+[![asciicast](https://asciinema.org/a/arW8NSJ7hxdGmGfcHdqk1ggK9.svg)](https://asciinema.org/a/arW8NSJ7hxdGmGfcHdqk1ggK9)

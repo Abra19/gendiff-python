@@ -5,6 +5,8 @@ import yaml
 def parse_file(path):
     with open(path) as file:
         content = file.read()
+    if not content:
+        raise ValueError('Empty file')
     last_dot_index = path.rfind('.')
     file_extension = path[last_dot_index + 1:]
     if file_extension == 'yml':
