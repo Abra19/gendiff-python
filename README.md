@@ -21,7 +21,7 @@ The function can be used as a library or as a console utility
 ### To get started
 1. Clone git repo:
   `git clone git@github.com:Abra19/gendiff-python.git`
-2. Go to directory python-project-50:
+2. Go to directory gendiff-python:
   `cd gendiff-python`
 3.  Configuring `poetry` to create a virtual environment:
   `poetry config virtualenvs.in-project true`
